@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Stylesheet | divyakoli</title>
+    <link href="/style.css" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">I am Developer</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline link-active">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <h1 style="text-align: center;">All about Stylesheet</h1>
+    <div class="container container-center">
+        <p>Let's Begin with What exactly is CSS? So CSS stands for Cascading <strong>Style Sheet.</strong>
+            Now you must be thinking what is the use of this style sheet? Well as the name itself suggests,
+            Style sheet in simple terms is used to apply style to your different html tags.</p>
+        <h2>Different Types of Style Sheets:</h2>
+        <ol>
+            <li>Inline Style Sheeet</li>
+            <li>Internal Style Sheet</li>
+            <li>External Style Sheet</li>
+        </ol>
+        <p>As you can tell from the above list, Style Sheets are of <strong>three types</strong>.Each type has it's own
+            set of advantages.So now let's find what's the difference between these types.</p>
+        <h3>Internal Stylesheet</h3>
+        <p>We will begin with Inline Style Sheet. Inline Style Sheet is used when you want to apply style to a
+            particular html element.
+            You declare Inline Style within individual tags and it shows it's styling effect only on those particular
+            tags or elements. The style attribute is used to
+            declare Inline Stylesheets.
+            <h4>Example:</h4>
+            <div>
+                <img src="/Images/Blog_images/Inline.JPG" />
+                <img src="/Images/Blog_images/Inline-output.JPG" />
+            </div>
+        </p>
+        <h3>Internal Stylesheet</h3>
+        <p>The other type is Internal Style Sheet. Unlike Inline Stylesheet which is valid for only individual html
+            element,
+            Internal Stylesheet is used when you want a unique style to a particular HTML document. The style tag is
+            used for declaring Internal Stylesheet. It is declared in the head section of the html document.
+            <h4>Example:</h4>
+            <div>
+                <img src="/Images/Blog_images/Internal.JPG" />
+                <img src="/Images/Blog_images/Internal-output.JPG" />
+            </div>
+        </p>
+        <h3>External Stylesheet</h3>
+        <p>Now coming to the most widely used External Style Sheet. External Stylesheets are used when you want to apply
+            the same style to multiple pages. If you make changes in the External Stylesheet those changes will be
+            reflected
+            in all the pages where the stylesheet is used. For using External stylsheet we need to make an external file
+            with .css
+            extension. Then we need to use link tag in the head section of HTML document, with attributes like href and
+            rel.
+            <h4>Example:</h4>
+            <div>
+                <h5>style.css file:</h5>
+                <img src="/Images/Blog_images/css_file.JPG" />
+                <img src="/Images/Blog_images/External.JPG" />
+                <img src="/Images/Blog_images/External-output.JPG" />
+            </div>
+        </p>
+        <h3>Multiple Stylesheets</h3>
+        <p>
+            You can have multiple stylesheet definitions on one page. For instance, an Inline stylesheet and an External
+            stylesheet on one page or an Inline stylesheet and an Internal stylesheet on one page, or all three
+            together.
+            If a property has been set for the same HTML element in different stylesheet definitions on the same HTML
+            page, the
+            definition that will be used will be from the stylesheet that has the highest priority.
+            <strong> Stylesheets by priority:</strong>
+            <ul>
+                <li>Inline stylesheet - An Inline stylesheet has the highest priority. It will override styles declared
+                    in an
+                    internal stylesheet, an external stylesheet, and a web browser's default styles.
+                </li>
+                <li>
+                    Internal stylesheet - An Internal stylesheet has the second highest priority. It will override
+                    styles
+                    declared in an external stylesheet and a web browser's default styles.
+                </li>
+                <li>
+                    External stylesheet - An External stylesheet has the third highest priority. It will override a web
+                    browser's
+                    default styles.
+                </li>
+                <li>
+                    Browsers default styles - A web browsers default styles have the lowest priority. A web browsers
+                    default
+                    styles are used when there is no style set for an element in an Inline, Internal, or External
+                    stylesheet.
+                </li>
+            </ul>
+        </p>
+    </div>
+    <footer class="footer">
+        <div class="footer-header">Connect with me through Social-media</div>
+        <ul class="list-non-bullet social-link">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/divyakoli1401">github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/divya_koli_">twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/divya-koli-960b25186/">Linkdin</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

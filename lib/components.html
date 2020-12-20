@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet">
+    <title>Divya's Portfolio</title>
+</head>
+
+<body>
+    <h1>Divya's Component Library</h1>
+    <p>I'm attending neogcamp and I want to make a library which would make all my projects look good and consistent</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is biggest heading</h1>
+    <h2>the second biggest heading</h2>
+    <p>This is a paragraph with normal text</p>
+    <small>this is small text</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container container-fluid">This is a fluid container will go till end of screen</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is a center container and it will go till specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered list</h3>
+    <ul class="list-non-bullet">
+        <li>1st item</li>
+        <li>2nd item</li>
+        <li>3rd item</li>
+    </ul>
+
+    <h3>unordered inline list</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">1st item</li>
+        <li class="list-item-inline">2nd item</li>
+        <li class="list-item-inline">3rd item</li>
+    </ul>
+
+
+    <h3>ordered list</h3>
+    <ol reversed>
+        <li>1st item</li>
+        <li>2nd item</li>
+        <li>3rd item</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">IAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline link-active">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <header class="hero">
+        <img class="hero-img" src="/Images/hero.svg" />
+        <h1 class="hero-heading">Divya Koli the <span style="color: var(--primary-color)"> Web Developer</span></h1>
+    </header>
+
+    <hr>
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have gray background</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have off white background </p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header">This will have some Heading</div>
+        <ul class="list-non-bullet social-link">
+            <li class="list-item-inline">
+                <a class="link" href="/">Socialmedia one</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Socialmedia two</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Socialmedia three</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
