@@ -64,7 +64,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 0.5em;
+    padding: 1rem;
 }
 
 .navigation .nav-brand {
@@ -86,7 +86,6 @@ hr {
 
 /** header **/
 .hero {
-    padding: 2rem;
     padding-top: 5rem;
 }
 
